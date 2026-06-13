@@ -26,9 +26,10 @@ The rules of play are enforced as follows:
 
 ## Circuit Assembly
 
-A photo of the project can be found [here.](https://msk2k1.neocities.org/media/projects/full-poolscore.jpg)
 To assemble the circuit, a 4x4 keypad and i2c LCD display are needed in addition to an Arduino:
 * Keypad pin R1 -> Arduino digital pin 9. Successive keypad pins are then attached to descending digital pins, until keypad pin C4 is attached to Arduino digital pin 2.
 * SDA pin of LCD -> analog pin A4
 * SCL pin of LCD -> analog pin A5
 * ground and VCC of LCD -> gnd and 5v pins of Arduino
+
+![Photo of the completed project](IMG_1384.JPG)
